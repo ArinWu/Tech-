@@ -5,13 +5,13 @@ import { Row, Col, Menu, Icon } from 'antd'
 const Header = () => (
     <div className="header">
         <Row type='flex' justify='center'>
-            <Col xs={0} sm={0} md={12} lg={12} >
+            <Col xs={0} sm={0} md={0} lg={12} xl={10}>
                 <span className="header-logo">Tech</span>
                 <span className="header-txt">Life</span>
 
             </Col>
 
-            <Col className="menu-div" xs={25} sm={24} md={14} lg={8}>
+            <Col className="menu-div" xs={25} sm={24} md={24} lg={8} xl={8}>
                 <Menu mode="horizontal">
                     <Menu.Item key="home">
                         <Icon type="home" />

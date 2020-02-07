@@ -10,10 +10,12 @@ body{
       background-color: #fff;
       padding: .3rem;
       border-radius: .3rem;
+
       
   }
 
 .comm-right {
-      background-color: #c471ed;
-      border-radius: 0.1rem
+      background-color: #c7f0db;
+      border-radius: 0.1rem;
+      padding-left: 0.1rem;
   }
