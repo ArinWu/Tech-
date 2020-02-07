@@ -2,8 +2,8 @@ import React, {useState} from 'react'
 import Head from 'next/head'
 import Header from '../components/Header'
 import {Button, Col, Row, List, Icon} from 'antd'
-import '../static/style/pages/index.css'
-const Home = () => {
+
+const Listpage = () => {
     const [ mylist, setMylist] = useState(
         [
             {title: 'Tech是个人博客', context: '帮助个人成长的平台'},
@@ -46,4 +46,4 @@ const Home = () => {
   </>
     )
 }
-export default Home
+export default Listpage

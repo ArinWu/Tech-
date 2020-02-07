@@ -1,0 +1,12 @@
+.list-title {
+    font-size: 0.6rem bold;
+    color: #29c7ac;
+    padding: 0 0.5rem;
+}
+.list-icon span {
+    padding-right: 1rem;
+}
+
+.list-context {
+    color: #c02739;
+}
